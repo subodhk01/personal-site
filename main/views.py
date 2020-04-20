@@ -6,6 +6,6 @@ def index(request):
     socials = Social.objects.all()
     context = {
         'subodh':subodh,
-        'socials':socials
+        'socials':socials,
     }
     return render(request, 'index.html', context)
