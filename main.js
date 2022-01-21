@@ -16,7 +16,7 @@ let frames = {
 }
 
 let getImagePath = (frameNumber, animation) => {
-    return '/images/' + animation + '/' + frameNumber + '.png';
+    return 'images/' + animation + '/' + frameNumber + '.png';
 }
 
 let loadImages = (callback) => {
